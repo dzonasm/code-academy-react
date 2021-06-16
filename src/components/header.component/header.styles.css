@@ -1,0 +1,18 @@
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+	padding: 1rem;
+}
+
+.nav-item {
+	cursor: pointer;
+}
+
+.nav-item:hover {
+	filter: brightness(1.1);
+}

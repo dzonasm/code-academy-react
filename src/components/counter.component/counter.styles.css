@@ -1,0 +1,31 @@
+* {
+	transition: all 0.5s ease;
+}
+
+.open {
+	opacity: 1;
+}
+
+.closed {
+	opacity: 0;
+	pointer-events: none;
+}
+
+span {
+	padding: 1rem;
+	display: block;
+}
+
+button {
+	margin: 0.2rem;
+	border: none;
+	padding: 0.3rem 1rem;
+	border-radius: 5px;
+	background: linear-gradient(75deg, rgb(173, 239, 255), rgb(255, 235, 235));
+	cursor: pointer;
+}
+
+button:hover {
+	background-size: 200%;
+	transform: scale(1.05);
+}
