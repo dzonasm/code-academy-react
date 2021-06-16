@@ -6,6 +6,7 @@ import { Input } from "./components/input-component/input.component";
 import { UseEffect } from "./components/use-effect/useEffect.component";
 import { Lesson9Final } from "./components/lesson9-final/lesson9Final.component";
 import { Collapse } from "./components/collapse/collapse.component";
+import { CreateUserPage } from "./pages/create-user/create-user-page";
 const App = () => {
 	const [openCounter, setOpenCounter] = useState(false);
 	const [color, setColor] = useState(1);
@@ -25,7 +26,8 @@ const App = () => {
 				{/* <Input /> */}
 				{/* <UseEffect /> */}
 				{/* <Lesson9Final /> */}
-				<Collapse />
+				{/* <Collapse /> */}
+				<CreateUserPage />
 			</header>
 		</div>
 	);
