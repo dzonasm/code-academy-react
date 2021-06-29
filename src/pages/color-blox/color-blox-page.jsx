@@ -1,6 +1,17 @@
 //@ts-nocheck
 import React, { createContext, useContext, useState } from "react";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
+
+//my state will be a map of indexes, that show which cubes contain a color value. 
+//the cube must contain information of its coordinates and its color
+
+//a random color button generates active color, a cube on click inherits that color
+// if a color is changed, cubes don't lose their set color 
+
+//a user can set the table dimentions, default is 3x3
+//the table is displayed as a row div, containing cubes
+
+
 const UserContext = createContext({
 	userCredentials: { name: "", password: "" },
 	setUserCredentials: () => {},
